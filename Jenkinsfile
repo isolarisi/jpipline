@@ -1,9 +1,9 @@
 pipeline {
     agent any 
     stages {
-        stage('Stage 1') {
+        stage('Обновление конфигурации') {
             steps {
-                echo 'Hello world!' 
+                d:\OneScript\bin\oscript D:\jpipline\build\build.os
             }
         }
     }

@@ -1,4 +1,5 @@
-РЈРґР°Р»РёС‚СЊР¤Р°Р№Р»С‹("c:\mrsk_ug\build", "*.*"); //РѕС‡РёС‰Р°РµРј РїР°РїРєСѓ, РіРґРµ Р±СѓРґРµС‚ С‚РµСЃС‚РѕРІР°СЏ Р±Р°Р·Р°
-РљРѕРїРёСЂРѕРІР°С‚СЊР¤Р°Р№Р»("c:\mrsk_ug\etalon", "c:\mrsk_ug\build"); //Р±РµСЂРµРј СЌС‚Р°Р»РѕРЅРЅСѓСЋ Р±Р°Р·Сѓ
+УдалитьФайлы("c:\mrsk_ug\build", "*.*"); //очищаем папку, где будет тестовая база
+КопироватьФайл("c:\mrsk_ug\etalon\1Cv8.1CD", "c:\mrsk_ug\build\1Cv8.1CD"); //берем эталонную базу
 
-Р—Р°РїСѓСЃС‚РёС‚СЊРџСЂРёР»РѕР¶РµРЅРёРµ("vanessa-runner.bat loadrepo --storage-name tcp://app:28304/mrsk_ug2 --storage-user Р РµР±СЂРѕ --storage-pwd 123 --ibconnection /Fc:\mrsk_ug\build --db-user РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ --db-pwd 159 --v8version 8.3.13.1809 --nocacheuse ");//РѕР±РЅРѕРІР»СЏРµРј РєРѕРЅС„РёРіСѓСЂР°С†РёСЋ РёР· С…СЂР°РЅРёР»РёС‰Р°
+ЗапуститьПриложение("vanessa-runner.bat loadrepo --storage-name tcp://app:28304/mrsk_ug2 --storage-user Ребро --storage-pwd 123 --ibconnection /Fc:\mrsk_ug\build --db-user Администратор --db-pwd 159 --v8version 8.3.13.1809 --nocacheuse ",,Истина);//обновляем конфигурацию из хранилища
+ЗапуститьПриложение("vanessa-runner.bat updatedb --ibconnection /Fc:\mrsk_ug\build --db-user Администратор --db-pwd 159 --v8version 8.3.13.1809 --nocacheuse ",,Истина);//обновляем конфигурацию из хранилища
