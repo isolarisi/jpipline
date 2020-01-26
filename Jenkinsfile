@@ -7,9 +7,15 @@ def utils = new Utils()
 pipeline {
     agent any 
     stages {
-        stage('Обновление конфигурации') {
+        stage('Upload cf') {
             steps {
-               sh "d:\\OneScript\\bin\\oscript D:\\jpipline\\build\\build.os"
+                script{
+                    returnCode = utils.cmd("d:\\OneScript\\bin\\oscript D:\\jpipline\\build\\build.os")
+
+                        if (returnCode != 0) {
+                            utils.raiseError("error execute os file")
+                        }
+                }
             }
         }
     }
