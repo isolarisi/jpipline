@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Обновление конфигурации') {
             steps {
-                utils.cmd("d:\\OneScript\\bin\\oscript D:\\jpipline\\build\\build.os")
+               sh "d:\\OneScript\\bin\\oscript D:\\jpipline\\build\\build.os"
             }
         }
     }
