@@ -3,3 +3,6 @@
 
 ЗапуститьПриложение("d:\OneScript\bin\vanessa-runner.bat loadrepo --storage-name tcp://app:28304/mrsk_ug2 --storage-user Ребро --storage-pwd 123 --ibconnection /Fd:\mrsk_ug\build --db-user Администратор --db-pwd 159 --v8version 8.3.13.1809 --nocacheuse ",,Истина);//обновляем конфигурацию из хранилища
 ЗапуститьПриложение("d:\OneScript\bin\vanessa-runner.bat updatedb --ibconnection /Fd:\mrsk_ug\build --db-user Администратор --db-pwd 159 --v8version 8.3.13.1809 --nocacheuse ",,Истина);//обновляем конфигурацию из хранилища
+
+//"c:\Program Files\1cv8\8.3.14.1565\bin\1cv8c.exe" /F"d:\sppr\" /N"Администратор" /P"" /Execute"D:\sppr\СборкаТекстовСценариев.epf" /C"СобратьСценарии;ВыполнятьСборкуСценариев=Истина;JsonParams=D:\mrsk_ug\uh_tests\feature_params.json;ResultFile=D:\mrsk_ug\temp\feature_out.txt;LogFile=D:\mrsk_ug\temp\feature_log.txt"
+ЗапуститьПриложение("""c:\Program Files\1cv8\8.3.14.1565\bin\1cv8c.exe"" /F""d:\sppr\"" /N""Администратор"" /P"""" /Execute""D:\sppr\СборкаТекстовСценариев.epf"" /C""СобратьСценарии;ВыполнятьСборкуСценариев=Истина;JsonParams=D:\mrsk_ug\uh_tests\feature_params.json;ResultFile=D:\mrsk_ug\temp\feature_out.txt;LogFile=D:\mrsk_ug\temp\feature_log.txt"" ");//конвертируем сценарии в фичи
