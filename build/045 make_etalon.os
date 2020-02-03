@@ -1,1 +1,0 @@
-КопироватьФайл("d:\mrsk_ug\build\1Cv8.1CD", "d:\mrsk_ug\build\1Cv8_etalon.1CD"); //сохраняем эталон для каждого теста

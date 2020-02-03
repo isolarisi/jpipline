@@ -1,0 +1,1 @@
+КопироватьФайл("c:\mrsk_ug\etalon\1Cv8.1CD", "c:\mrsk_ug\build\1Cv8.1CD"); //берем эталонную базу
