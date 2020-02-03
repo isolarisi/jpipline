@@ -1,1 +1,1 @@
-java -jar agent.jar -jnlpUrl http://127.0.0.1:8080/computer/afmkcomp4/slave-agent.jnlp -secret cd17a462175535743761d97172f1c1f365b92609922c835e0f089d5749b3b107 -workDir "D:\jenkinsnode"
+java -jar d:\jpipline\agent.jar -jnlpUrl http://127.0.0.1:8080/computer/afmkcomp4/slave-agent.jnlp -secret cd17a462175535743761d97172f1c1f365b92609922c835e0f089d5749b3b107 -workDir "D:\jenkinsnode"
