@@ -1,1 +1,1 @@
-ЗапуститьПриложение("d:\OneScript\bin\vanessa-runner.bat updatedb --ibconnection /Fc:\mrsk_ug\etalon --db-user Администратор --db-pwd 159 --v8version 8.3.13.1809 --nocacheuse ",,Истина);//обновляем конфигурацию из хранилища
+ЗапуститьПриложение("d:\OneScript\bin\vanessa-runner.bat updatedb --ibconnection /Fc:\mrsk_ug\etalon --db-user Администратор --db-pwd 159 --v8version 8.3.15.1656 --nocacheuse ",,Истина);//обновляем конфигурацию из хранилища

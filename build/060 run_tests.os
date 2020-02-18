@@ -12,6 +12,6 @@
 	КопироватьФайл("c:\mrsk_ug\etalon\Предприятие.os", "c:\mrsk_ug\build\Предприятие.os");
 
 	Сообщить("Запускаем тест: "+ФайлНастройки.Имя);
-	//"c:\Program Files\1cv8\8.3.14.1565\bin\1cv8c.exe" /TESTMANAGER /F"d:\sppr\" /N"Администратор" /P"" /Execute"D:\vanessa-automation\vanessa-automation.epf" /C"StartFeaturePlayer;VBParams=D:\mrsk_ug\features\mrsk_ug\000000001.json" //запуск фичи на выполнение
-	ЗапуститьПриложение("""c:\Program Files\1cv8\8.3.14.1565\bin\1cv8c.exe"" /TESTMANAGER /F""d:\sppr\"" /N""Администратор"" /P"""" /Execute""D:\vanessa-automation\vanessa-automation.epf"" /C""StartFeaturePlayer;VBParams="+ФайлНастройки.ПолноеИмя+""" ",,Истина); //запуск фичи на выполнение
+	//"c:\Program Files\1cv8\8.3.15.1656\bin\1cv8c.exe" /TESTMANAGER /F"d:\sppr\" /N"Администратор" /P"" /Execute"D:\vanessa-automation\vanessa-automation.epf" /C"StartFeaturePlayer;VBParams=D:\mrsk_ug\features\mrsk_ug\000000001.json" //запуск фичи на выполнение
+	ЗапуститьПриложение("""c:\Program Files\1cv8\8.3.15.1656\bin\1cv8c.exe"" /TESTMANAGER /F""d:\sppr\"" /N""Администратор"" /P"""" /Execute""D:\vanessa-automation\vanessa-automation.epf"" /C""StartFeaturePlayer;VBParams="+ФайлНастройки.ПолноеИмя+""" ",,Истина); //запуск фичи на выполнение
 КонецЦикла;
